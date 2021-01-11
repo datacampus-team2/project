@@ -1,13 +1,18 @@
 # Free-Honor
-Free-Honor project
 <br>
 <br>
 <br>
+
+# Introduction
+사법 취약계층을 위한 판결 예측 AI 시스템입니다. Free-Honor는 네 가지 서비스를 제공합니다. 사용자가 소환장에서 알 수 있는 사건 정보와 법 조항 및 사용자의 서술을 통해 판결을 예측합니다. 첫 번째 서비스는 형량 예측 서비스입니다. 개월 수를 기준으로 예측 결과를 제공합니다. 두 번째 서비스는 집행유예 여부 예측 서비스입니다. 집행유예를 선고받을 가능성을 제공합니다. 세 번째는 항소 기각 여부 예측 서비스입니다. 항소가 기각될 가능성을 제공합니다. 마지막으로, 네 번째는 유사 판결문 제공 서비스입니다. 관련된 사건의 판결문을 사용자에게 제공함으로써 수많은 판결문 중 유용한 판결문을 직접 찾아야 하는 수고를 줄입니다.
+<br>
+<br>
+<br>
+<br>
+
+# Code Explanation
 
 *중복되어 사용된 Used Library는 작성하지 않음*
-
-<br>
-<br>
 
 ## [Data Collecting](https://github.com/datacampus-team2/project/tree/master/data_collecting)
 Code | Explanation | Used Library
@@ -48,7 +53,29 @@ Code | Explanation | Used Library
 
 <br>
 <br>
+<br>
+<br>
 
-## 모델 그래프
+## Model Artichecture
 
 ![모델 그래프](https://github.com/datacampus-team2/project/blob/master/data_modeling/01_sentence.png)
+
+<br>
+<br>
+<br>
+<br>
+
+## Results
+
+|징역 예측 (RMSE)|집행유예 예측 (Accuracy)|항소 예측 (Accuracy)|
+|----------------|------------------------|-------------------|
+|22.227|0.9607|0.874|
+
+<br>
+<br>
+<br>
+<br>
+
+## References
+- [Convolutional Neural Networks for Sentence Classification (Yoon Kim, 2014)](https://arxiv.org/abs/1408.5882)
+- [기계 학습 모델에 기반한 형량 예측 시스템 연구 (변재욱 외 3명, 2018)](https://academic.naver.com/article.naver?doc_id=561847979)
