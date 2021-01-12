@@ -90,7 +90,7 @@ Code | Explanation | Used Library
 <br>
 <br>
 
-## 결과 화면
+### 결과 화면
 ![0003](https://github.com/datacampus-team2/project/blob/master/image/0003.PNG)
 
 <br>
