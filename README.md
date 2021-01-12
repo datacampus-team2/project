@@ -56,7 +56,7 @@ Code | Explanation | Used Library
 <br>
 <br>
 
-## Model Artichecture
+# Model Artichecture
 
 ![모델 그래프](https://github.com/datacampus-team2/project/blob/master/data_modeling/01_sentence.png)
 
@@ -65,7 +65,7 @@ Code | Explanation | Used Library
 <br>
 <br>
 
-## Results
+# Results
 
 |징역 예측 (RMSE)|집행유예 예측 (Accuracy)|항소 예측 (Accuracy)|
 |----------------|------------------------|-------------------|
@@ -76,6 +76,28 @@ Code | Explanation | Used Library
 <br>
 <br>
 
-## References
+# Web
+
+### 첫 화면
+![0001](https://github.com/datacampus-team2/project/blob/master/image/0001.png)
+
+<br>
+<br>
+
+### 입력 화면
+![0002](https://github.com/datacampus-team2/project/blob/master/image/0002.png)
+
+<br>
+<br>
+
+## 결과 화면
+![0003](https://github.com/datacampus-team2/project/blob/master/image/0003.PNG)
+
+<br>
+<br>
+<br>
+<br>
+
+# References
 - [Convolutional Neural Networks for Sentence Classification (Yoon Kim, 2014)](https://arxiv.org/abs/1408.5882)
 - [기계 학습 모델에 기반한 형량 예측 시스템 연구 (변재욱 외 3명, 2018)](https://academic.naver.com/article.naver?doc_id=561847979)
